@@ -13,5 +13,5 @@ document.querySelector("body").addEventListener("mousemove", (e)=>{
     // Remove the circle after 2 seconds to avoid overflow
     setTimeout(() => {
         circle.remove();
-    }, 2000);
+    }, 7000);
 })

@@ -1,0 +1,31 @@
+/* Reset and Box Sizing */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Full Screen Body */
+body {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    background-color: #f0f0f0; /* Light background */
+    cursor: none; /* Hides default cursor for effect */
+}
+
+/* Panda Emoji Styling */
+.panda {
+    position: absolute;
+    font-size: 2rem; /* Size of the panda emoji */
+    pointer-events: none; /* Avoid interference with mouse */
+    animation: fadeOut 11s forwards;
+}
+
+/* Fade Out Animation */
+@keyframes fadeOut {
+    to {
+        opacity: 0;
+        transform: scale(1.5);
+    }
+}
